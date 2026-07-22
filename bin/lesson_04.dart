@@ -1,3 +1,5 @@
+// Привет учитель
+
 void main() {
   // DRY - don't repeat yourself
   print('ЗАВТРАК');
