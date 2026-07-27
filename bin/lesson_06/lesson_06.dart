@@ -19,12 +19,21 @@ void main() {
 
   Animal.displayCounter();
 
-  if(fightingDog.commands == 'fight'){
+  if (fightingDog.commands == 'fight') {
     print('This dog is dangerous');
   }
 
-  if(fightingDog.color == Color.darkGreen){
+  if (fightingDog.color == Color.darkGreen) {
     print('This dog is beautiful');
   }
+
+  int number = -2;
+  // if (number >= 0) {
+  //   print('Number is positive');
+  // } else {
+  //   print('Number is negative');
+  // }
+  String message = number >= 0 ? 'Number is positive' : 'Number is negative';
+  print(message);
   print('End of program');
 }
