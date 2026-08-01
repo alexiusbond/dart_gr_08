@@ -18,10 +18,12 @@ void main() {
       Fly f = d as Fly;
       f.fly(d.runtimeType.toString());
     }
-    if(d is Playable){
+    if (d is Playable) {
       (d as Playable).play();
     }
   }
+
+  print('End of program');
 }
 
 void drawAllVariants(Drawable d) {
